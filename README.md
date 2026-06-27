@@ -10,7 +10,7 @@
 
 ## Bounties &amp; Donations for this app
 
-* Send XMR to 84LGFbzPRKV7CqXKKqadJsX4uukpCAydr6LAwyib2zmoj1rn9Wvfhip778anD6DPvjWfKKqdNnFwfTyYX1nduU7m3RSUMhU ; if you want to include bounty/donation notes, create an issue at https://github.com/PurpleI2P/i2pd-qt/issues or send an e-mail to hypnosis@i2pmail.org ; include a XMR amount data into your notes.
+* Send XMR to 8AhC4AS4XK6j5F3fovkhKqGMzxkqGKHf3C2YiHqfurc75puyFsrmwgkL2c5u96KUmtgJheHkeXaAJESnTZb3SL3vTkHbtg9 ; if you want to include bounty/donation notes, create an issue at https://github.com/PurpleI2P/i2pd-qt/issues or send an e-mail to hypnosis@i2pmail.org ; include a XMR tx &amp; XMR amount data into your notes.
 
 ## Team
 
