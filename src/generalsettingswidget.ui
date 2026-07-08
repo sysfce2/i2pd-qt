@@ -427,7 +427,7 @@ QGroupBox::title {
          <x>-1</x>
          <y>19</y>
          <width>661</width>
-         <height>94</height>
+         <height>96</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -584,7 +584,7 @@ QGroupBox::title {
          <x>0</x>
          <y>20</y>
          <width>661</width>
-         <height>521</height>
+         <height>535</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -613,13 +613,6 @@ QGroupBox::title {
          <widget class="QCheckBox" name="floodfillCheckBox">
           <property name="text">
            <string>Router will be floodfill</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="ssuCheckBox">
-          <property name="text">
-           <string>Enable SSU transport protocol (use UDP)</string>
           </property>
          </widget>
         </item>
@@ -1047,7 +1040,7 @@ QGroupBox::title {
          <x>-1</x>
          <y>200</y>
          <width>661</width>
-         <height>29</height>
+         <height>31</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout_49">
@@ -1944,7 +1937,7 @@ Comma separated list of base64 identities:</string>
          <x>0</x>
          <y>300</y>
          <width>661</width>
-         <height>101</height>
+         <height>107</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -3023,7 +3016,7 @@ Comma separated list of base64 identities:</string>
          <x>9</x>
          <y>20</y>
          <width>661</width>
-         <height>492</height>
+         <height>514</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_8">
@@ -3610,7 +3603,7 @@ Comma separated list of base64 identities:</string>
          <x>-1</x>
          <y>19</y>
          <width>671</width>
-         <height>136</height>
+         <height>144</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">

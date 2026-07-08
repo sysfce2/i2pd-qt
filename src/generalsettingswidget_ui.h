@@ -75,7 +75,6 @@ public:
     QCheckBox *ipv6CheckBox;
     QCheckBox *notransitCheckBox;
     QCheckBox *floodfillCheckBox;
-    QCheckBox *ssuCheckBox;
     QCheckBox *ssu2enabledCheckBox;
     QCheckBox *ssu2publishedCheckBox;
     QHBoxLayout *ssu2horizontalLayout;
@@ -764,11 +763,6 @@ public:
         floodfillCheckBox->setObjectName(QString::fromUtf8("floodfillCheckBox"));
 
         verticalLayout_11->addWidget(floodfillCheckBox);
-
-        ssuCheckBox = new QCheckBox();
-        ssuCheckBox->setObjectName(QString::fromUtf8("ssuCheckBox"));
-
-        verticalLayout_11->addWidget(ssuCheckBox);
 
         ssu2enabledCheckBox = new QCheckBox();
         ssu2enabledCheckBox->setObjectName(QString::fromUtf8("ssu2enabledCheckBox"));
@@ -2531,7 +2525,6 @@ public:
         ipv6CheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Enable communication through ipv6", nullptr));
         notransitCheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Router will not accept transit tunnels at startup", nullptr));
         floodfillCheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Router will be floodfill", nullptr));
-        ssuCheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Enable SSU transport protocol (use UDP)", nullptr));
         ssu2enabledCheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Enable SSU2", nullptr));
         ssu2publishedCheckBox->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Publish SSU2", nullptr));
         ssu2portLabel->setText(QCoreApplication::translate("GeneralSettingsContentsForm", "Port to listen for incoming SSU2 packets (0 means auto-assign):", nullptr));
