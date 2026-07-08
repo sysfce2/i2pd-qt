@@ -214,7 +214,6 @@ MainWindow::MainWindow(std::shared_ptr<std::iostream> logStream_, QWidget *paren
     initIntegerBox(     OPTION("","share",[]{return "100";}), uiSettings->shareLineEdit, tr("Share"));//Max % of bandwidth limit for transit. 0-100. 100 by default
     initStringBox(      OPTION("","family",[]{return "";}), uiSettings->familyLineEdit);
     initIntegerBox(     OPTION("","netid",[]{return "2";}), uiSettings->netIdLineEdit, tr("NetID"));
-    initCheckBox(       OPTION("","ssu",[]{return "false";}), uiSettings->ssuCheckBox);//Enable SSU transport protocol (use UDP). true by default
     initCheckBox(       OPTION("","reservedrange",[]{return "true";}), uiSettings->reservedrange_checkbox);
     initCheckBox(       OPTION("","stan",[]{return "false";}), uiSettings->stanCheckBox);
 
