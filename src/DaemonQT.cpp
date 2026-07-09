@@ -186,7 +186,7 @@ namespace qt
             }
         }
 
-		//QMessageBox::information(&w, "Debug", "demon stopped");
+		//QMessageBox::information(&w, "Debug", "daemon stopped");
         LogPrint(eLogDebug, "Exiting the application");
 		return result;
 	}

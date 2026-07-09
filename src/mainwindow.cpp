@@ -650,7 +650,7 @@ void MainWindow::handleGracefulQuitButton() {
     ui->gracefulQuitPushButton->setEnabled(false);
     ui->gracefulQuitPushButton->adjustSize();
     ui->quitPage->adjustSize();
-    i2p::context.SetAcceptsTunnels (false); // stop accpting tunnels
+    i2p::context.SetAcceptsTunnels (false); // stop accepting tunnels
     QTimer::singleShot(10*60*1000//millis
         , this, SLOT(handleGracefulQuitTimerEvent()));
 }
